@@ -1,0 +1,18 @@
+.color-0 { fill: #DDDDDD;}
+.color-1 { fill: #F9F909;}
+.color-2 { fill: #FFDA14;}
+.color-3 { fill: #E19E00;}
+.color-4 { fill: #F43409;}
+.color-5 { fill: #0021FF;}
+
+.state-boundary {
+	fill: none;
+	stroke: #777;
+	stroke-dasharray: 2,2;
+	stroke-linejoin: round;
+}
+
+svg {
+	display: block;
+	margin: auto;
+}
