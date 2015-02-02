@@ -6,13 +6,59 @@
 	<script src="http://d3js.org/d3.v3.min.js"></script>
 	<script src="http://d3js.org/topojson.v1.min.js"></script>
 	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
 	<link rel="stylesheet" type="text/css" href="ParticipationHeatMap/main.css" />
 	<script src="ParticipationHeatMap/main.js"></script>
 </head>
 
 <body>
-	<h1 style="text-align: center;">Participation Heat Map</h1>
+	<div class="container">
+		<div class="page-header">
+			<h1 style="text-align: center;">Miami Half Marathon<small> 2015</small></h1>
+		</div>
+
+		<h3 style="text-align: center;">Participation Heat Map</h3>
+
+		<div id="participation-heat-map-div">
+			<!-- SVG goes here -->
+		</div>
+		
+		<div id="participation-heat-map-info">
+
+			<!-- State -->
+			<div class="row">
+				<div class="col-sm-6 text-right">
+					<big>State:</big>
+				</div>
+				<div class="col-sm-6">
+					<strong><big id="state-name">-</big></strong>
+				</div>
+			</div>
+
+			<!-- Participant Count -->
+			<div class="row">
+				<div class="col-sm-6 text-right">
+					<big>Total Participants:</big>
+				</div>
+				<div class="col-sm-6">
+					<strong><big id="participant-count">-</big></strong>
+				</div>
+			</div>
+			
+			<!-- Average Pace -->
+			<div class="row">
+				<div class="col-sm-6 text-right">
+					<big>Average Pace:</big>
+				</div>
+				<div class="col-sm-6">
+					<strong><big id="average-pace">-</big></strong>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
 </body>
 
 </html>

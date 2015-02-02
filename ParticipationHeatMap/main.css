@@ -1,9 +1,12 @@
-.color-0 { fill: #DDDDDD;}
-.color-1 { fill: #F9F909;}
-.color-2 { fill: #FFDA14;}
-.color-3 { fill: #E19E00;}
-.color-4 { fill: #F43409;}
-.color-5 { fill: #0021FF;}
+.blue-shade-0 { fill:rgb(247,251,255); }
+.blue-shade-1 { fill:rgb(222,235,247); }
+.blue-shade-2 { fill:rgb(198,219,239); }
+.blue-shade-3 { fill:rgb(158,202,225); }
+.blue-shade-4 { fill:rgb(107,174,214); }
+.blue-shade-5 { fill:rgb(66,146,198); }
+.blue-shade-6 { fill:rgb(33,113,181); }
+.blue-shade-7 { fill:rgb(8,81,156); }
+.blue-shade-8 { fill:rgb(8,48,107); }
 
 .state-boundary {
 	fill: none;
@@ -12,7 +15,7 @@
 	stroke-linejoin: round;
 }
 
-svg {
+svg#participation-heat-map-svg {
 	display: block;
 	margin: auto;
 }
